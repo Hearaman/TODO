@@ -1,0 +1,68 @@
+/* 
+    Document   : main
+    Created on : 24 Nov, 2013, 10:19:08 PM
+    Author     : hearaman
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:600,400,300|Ubuntu:300');
+body{font-family: 'Ubuntu'; font-weight: 300; font-size: 13px;}
+.navbar{border-radius: 0px;-moz-border-radius: 0px; -webkit-border-radius: 0px;}
+h1,h2,h3,h4,h5,h6{margin: 4px 0px;}
+.row-fluid [class*='span']{min-height: 10px;}
+#todoBox{width: 640px; margin: 0 auto; margin-top: 50px;}
+#todoList{border: 1px solid #ccc; border-top:0px;padding:3px 5px; background-color: #fff;}
+#inputToDo{margin: 0px; border-radius: 0px;-moz-border-radius: 0px; -webkit-border-radius: 0px;}
+input[type='checkbox'],input[type='radio']{margin-top:-2px;}
+.aTODO{line-height: 30px; border-bottom: 1px dotted #ddd;}
+.aTODO:hover{background-color: #f9f9f9;}
+.aTODO:last-child{border-bottom: none;}
+.aTODO div:first-child{text-transform: capitalize;}
+.title
+{
+    background-color: #fafafa;
+    background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+    background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    *zoom: 1;
+    font-size: 12px;  letter-spacing: 1px;    
+    padding: 7px;
+    font-family: arial;
+}
+.newRow0
+{
+    -moz-animation-name:colorChange;
+    -moz-animation-duration:30s;
+    -moz-animation-delay:0s;
+    -moz-animation-iteration-count:1;
+    -moz-animation-fill-mode:forwards;
+    
+    -webkit-animation-name:colorChange;
+    -webkit-animation-duration:30s;
+    -webkit-animation-delay:0s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode:forwards;    
+}
+@-moz-keyframes colorChange 
+{
+    from {color:#f00;}
+    to {color:#000;}        
+}
+@-webkit-keyframes colorChange 
+{
+    from {color:#f00;}
+    to {color:#000;}        
+}
+
+.Green{color: #5B9900 !important;}
